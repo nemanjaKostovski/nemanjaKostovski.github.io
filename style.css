@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+
+/*Variables*/
+
+:root {
+  --primary-color: #f60f20;
+  --black: #111;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  html,
+  body {
+    font-family: "Poppins", sans-serif;
+    color: var(--black);
+  }
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    border-bottom: var(--black) 2px solid;
+}
+
+.logo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+}
+
+h1 {
+    position: fixed;
+    top: 3%;
+    left: 40%;
+}
+
+.toggle {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    width: 70px;
+    height: 70px;
+    background: var(--primary-color) url(../images/menu.png);
+    background-size: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+  }
+  
+  .toggle.active {
+    background: var(--primary-color) url(../images/close.png);
+    background-size: 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  main ul {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  }
+
+  main {
+    padding-top: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  main ul li a:hover {
+    color: var(--primary-color);
+  }
+
+  main ul li {
+    list-style: none;
+  }
+
+  main ul li a {
+    font-size: 2.2rem;
+    color: #111;
+    text-decoration: none;
+    font-weight: 300;
+  }
+
+  footer {
+      position: fixed;
+      height: 30px;
+      width: 100%;
+      border-top: var(--black) 2px solid;
+      bottom: 0;
+      text-align: center;
+  }
+
+  /* About */
+
+  .about {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      width: 100%;
+  }
+
+  .about p {
+      width: 50%;
+  }

@@ -31,6 +31,8 @@ body {
   height: 100px;
   z-index: 20;
   border-bottom: var(--primary-color) 2px solid;
+  position: fixed;
+  background-color: #fff;
 }
 
 .logo {
@@ -118,7 +120,7 @@ a {
   color: var(--black);
 }
 
-a:hover {
+li a:hover {
   color: var(--primary-color);
 }
 
@@ -130,6 +132,7 @@ footer {
   width: 100%;
   border-top: var(--primary-color) 2px solid;
   bottom: 0;
+  background-color: #fff;
   text-align: center;
   z-index: 25;
 }
@@ -143,18 +146,36 @@ footer {
 }
 
 .services {
-  padding-top: 50px;
+  padding-top: 140px;
   list-style: none;
   text-align: center;
   font-size: 3rem;
-  width: 65%;
+  width: 55%;
 }
 
 .bg-image {
   position: absolute;
   right: 0;
-  height: 527px;
-  width: 35%;
+  width: 45%;
+  height: 100vh;
+}
+
+/* Button */
+
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  background: var(--primary-color);
+  color: #fff;
+  font-size: 1.2rem;
+  text-decoration: none;
+  padding: 10px 30px;
+  margin: 20px 0;
+  border: 0;
+}
+
+.btn:hover {
+  transform: scale(0.98);
 }
 
 /* About page */
@@ -165,8 +186,7 @@ footer {
   align-items: center;
   text-align: center;
   width: 100%;
-  padding: 80px;
-  margin-top: 40px;
+  padding: 15%;
 }
 
 .about p {

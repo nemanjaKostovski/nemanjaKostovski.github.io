@@ -1,5 +1,7 @@
 const toggle = document.querySelector(".toggle");
+const navigation = document.querySelector(".navigation");
 
 toggle.addEventListener("click", () => {
-  location.href = "/index.html";
+  toggle.classList.toggle("active");
+  navigation.classList.toggle("active");
 });

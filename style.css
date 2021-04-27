@@ -192,3 +192,80 @@ footer {
 .about p {
   width: 50%;
 }
+
+/*Projects page*/
+
+/*Projects can now be added in html and will appear the same as alumil project*/
+
+.projects {
+  padding-top: 10%;
+}
+
+.projects h2 {
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.projects h3 {
+  text-align: center;
+  padding-top: 2%;
+}
+
+.projects a:hover {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.projects section a {
+  margin-top: 50px;
+  margin-right: 2%;
+  display: flex;
+  width: 300px;
+  height: 100px;
+}
+
+.project-img {
+  width: 300px;
+  height: 100px;
+}
+
+.project-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.projects section {
+  padding-left: 10%;
+  display: flex;
+  width: 80%;
+}
+
+/*Contact page*/
+
+.contact {
+  padding-top: 10%;
+}
+
+.contact h2 {
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.socialmedia {
+  display: flex;
+  justify-content: center;
+}
+.socialmedia li {
+  margin-right: 20px;
+  list-style: none;
+}
+
+.socialmedia li a img {
+  width: 60px;
+  height: 60px;
+}
+
+.socialmedia li a img:hover {
+  background-color: var(--primary-color);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+}

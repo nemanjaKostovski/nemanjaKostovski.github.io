@@ -268,3 +268,7 @@ footer {
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
   border-radius: 50%;
 }
+
+.socialmedia li a .pic {
+  padding: 3px;
+}

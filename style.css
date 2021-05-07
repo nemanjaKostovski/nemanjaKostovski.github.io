@@ -326,7 +326,7 @@ footer {
   }
 
   .services {
-    font-size: 2rem;
+    font-size: 1.7rem;
     width: 90%;
     padding-left: 5%;
   }
@@ -364,7 +364,7 @@ footer {
   }
 
   .mail-text {
-    top: 79%;
+    top: 84%;
     left: 17%;
   }
 }

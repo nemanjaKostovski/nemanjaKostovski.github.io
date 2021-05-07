@@ -124,6 +124,10 @@ li a:hover {
   color: var(--primary-color);
 }
 
+.about p a {
+  color: var(--primary-color);
+}
+
 /*Footer*/
 
 footer {
@@ -241,7 +245,7 @@ footer {
 /*Contact page*/
 
 .contact {
-  padding-top: 10%;
+  padding-top: 15%;
 }
 
 .contact h2 {
@@ -269,6 +273,105 @@ footer {
   border-radius: 50%;
 }
 
-.socialmedia li a .pic {
+.pic-padding {
   padding: 3px;
+}
+
+.mail-text {
+  position: absolute;
+  visibility: hidden;
+}
+
+.mail:hover .mail-text {
+  visibility: visible;
+}
+
+/*Height MQ*/
+/*This is so that home page is displayed prorerly on monitors that are lower resolution than HD*/
+@media only screen and (max-height: 658px) {
+  .services {
+    font-size: 2rem;
+  }
+}
+
+/*Media Queries for mobile screens*/
+
+@media only screen and (max-width: 576px) {
+  /*Navigation and footer*/
+  .nav h1 {
+    visibility: hidden;
+  }
+  .nav .logo,
+  .toggle {
+    width: 35%;
+  }
+
+  .toggle {
+    background-size: 40px;
+  }
+
+  .toggle.active {
+    background-size: 35px;
+  }
+
+  footer p {
+    padding-top: 5px;
+    font-size: 0.8rem;
+  }
+
+  /*Home page*/
+
+  .bg-image {
+    visibility: hidden;
+  }
+
+  .services {
+    font-size: 2rem;
+    width: 90%;
+    padding-left: 5%;
+  }
+
+  /*About me*/
+
+  .about {
+    padding-top: 30%;
+  }
+
+  .about p {
+    width: 90%;
+  }
+
+  /*Projects*/
+
+  .projects h2 {
+    padding-top: 30%;
+  }
+
+  .projects section a {
+    flex-direction: column;
+    align-content: center;
+  }
+
+  /*Contact*/
+
+  .contact h2 {
+    padding-top: 20%;
+  }
+
+  .socialmedia {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mail-text {
+    top: 79%;
+    left: 17%;
+  }
+}
+
+/*For tablets*/
+@media only screen and (min-width: 577px) and (max-width: 1023px) {
+  .projects h2 {
+    padding-top: 10%;
+  }
 }

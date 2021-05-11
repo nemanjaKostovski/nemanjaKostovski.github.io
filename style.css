@@ -48,7 +48,6 @@ body {
   position: fixed;
   width: 100%;
   padding-top: 2%;
-  padding-bottom: 40px;
   z-index: 20;
   top: 0;
 }
@@ -303,7 +302,7 @@ footer {
   }
   .nav .logo,
   .toggle {
-    width: 35%;
+    width: 30%;
   }
 
   .toggle {
@@ -328,7 +327,8 @@ footer {
   .services {
     font-size: 1.7rem;
     width: 90%;
-    padding-left: 5%;
+    margin-left: 5%;
+    margin-bottom: 10%;
   }
 
   /*About me*/
@@ -350,9 +350,16 @@ footer {
   .projects section a {
     flex-direction: column;
     align-content: center;
+    margin-bottom: 20%;
   }
 
   /*Contact*/
+
+  .contact {
+    margin-bottom: 10%;
+    width: 90%;
+    margin-left: 5%;
+  }
 
   .contact h2 {
     padding-top: 20%;
@@ -363,9 +370,14 @@ footer {
     align-items: center;
   }
 
+  .mail {
+    display: flex;
+    flex-direction: column;
+  }
+
   .mail-text {
-    top: 84%;
-    left: 17%;
+    left: 15%;
+    top: 90%;
   }
 }
 

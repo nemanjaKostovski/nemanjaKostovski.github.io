@@ -286,7 +286,7 @@ footer {
 }
 
 /*Height MQ*/
-/*This is so that home page is displayed prorerly on monitors that are lower resolution than HD*/
+/*This is so that home page is displayed properly on monitors that are lower resolution than HD*/
 @media only screen and (max-height: 658px) {
   .services {
     font-size: 2rem;

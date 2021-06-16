@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com/">
+    <link href="./Welcome_files/css2" rel="stylesheet">
+    <link rel="stylesheet" href="./Welcome_files/style.css">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+</head>
+<body style="background-image: url(&quot;../imgs/hills.jpg&quot;); color: white;">
+    <time id="time">3<span>:</span>49 PM</time>
+    <h1>
+        <span id="greeting">Good Afternoon</span>
+        <gdiv class="ginger-module-highlighter ginger-module-highlighter-float" style="background: none 0% 0% / auto repeat scroll padding-box border-box rgba(0, 0, 0, 0); position: absolute; margin-top: -40px; margin-left: 241.296px; height: 0px; width: 0px;"><gdiv class="ginger-module-highlighter-float-content" style="height: 0px;"></gdiv></gdiv><span id="name" contenteditable="true" spellcheck="false" style="background: transparent; position: relative;">&nbsp;Nemanja<br><br></span>
+    </h1>
+    <h2>What is your focus for today?</h2>
+    <h2 id="focus" contenteditable="true">Something...</h2>
+    <script src="./Welcome_files/script.js.download"></script>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+<gdiv class="ginger-extension-writer" style="display: none;"><gdiv class="ginger-extension-writer-frame"><iframe src="./Welcome_files/index.html"></iframe></gdiv></gdiv><gdiv id="ginger-floatingG-container" style="position: absolute; top: 0px; left: 0px;"><gdiv class="ginger-floatingG ginger-floatingG-closed" style="left: -1000px; display: none;"><gdiv class="ginger-floatingG-disabled-main"><gdiv class="ginger-floatingG-bar-tool-tooltip">Enable Ginger</gdiv></gdiv><gdiv class="ginger-floatingG-offline-main"><gdiv class="ginger-floatingG-bar-tool-tooltip"><em>Cannot connect to Ginger</em> Check your internet connection<br> or reload the browser</gdiv></gdiv><gdiv class="ginger-floatingG-enabled-main"><gdiv class="ginger-floatingG-bar"><gdiv class="ginger-floatingG-bar-tool ginger-floatingG-bar-tool-disable"><ga></ga><gdiv class="ginger-floatingG-bar-tool-tooltip">Disable in this text field</gdiv></gdiv><gdiv class="ginger-floatingG-bar-tool ginger-floatingG-bar-tool-rephrase ginger-floatingG-bar-tool-rephrase_big-circle"><ga class="ginger-floatingG-bar-tool-rephrase__btn" id="ginger__floatingG-bar-tool-rephrase__btn">Rephrase</ga><gdiv class="ginger-floatingG-bar-tool-tooltip ginger-floatingG-bar-tool-tooltip_rephrase">Rephrase current sentence</gdiv></gdiv><gdiv class="ginger-floatingG-bar-tool ginger-floatingG-bar-tool-mistakes"><ga><span class="ginger-floatingG-bar-tool-mistakes-count">0</span></ga><gdiv class="ginger-floatingG-bar-tool-tooltip">Edit in Ginger</gdiv></gdiv></gdiv></gdiv><gdiv class="ginger-floatingG-contentPopup" style="display: none;"><gdiv class="ginger-floatingG-contentPopup-wrap"><ga class="ginger-floatingG-contentPopup-close">×</ga><gdiv class="ginger-floatingG-contentPopup-frame"><iframe scrolling="no" src="./Welcome_files/saved_resource.html"></iframe></gdiv></gdiv></gdiv></gdiv></gdiv></body></html>

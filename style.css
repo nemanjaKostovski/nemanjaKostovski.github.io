@@ -324,6 +324,10 @@ footer {
     visibility: hidden;
   }
 
+  .services ul {
+    list-style: none;
+  }
+
   .services {
     font-size: 1.7rem;
     width: 90%;
@@ -351,6 +355,14 @@ footer {
     flex-direction: column;
     align-content: center;
     margin-bottom: 20%;
+  }
+
+  .projects section {
+    margin-left: 8%;
+  }
+
+  .projects a {
+    padding: 0%;
   }
 
   /*Contact*/
